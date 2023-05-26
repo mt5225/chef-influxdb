@@ -4,7 +4,7 @@
 
 property :arch_type, String
 property :include_repository, [TrueClass, FalseClass], default: true
-property :influxdb_key, String, default: 'https://repos.influxdata.com/influxdb.key'
+property :influxdb_key, String, default: 'https://repos.influxdata.com/influxdata-archive_compat.key'
 property :install_version, [String, nil], default: nil
 property :install_type, String, default: 'package'
 property :package_name, String, name_property: true
